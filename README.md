@@ -18,6 +18,18 @@ This project focuses on building and training a convolutional neural network (CN
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/pytorch-image-classification.git
-   cd pytorch-image-classification
+   git clone https://github.com/plasmatom/image_classifier.git
+   cd image_classifier
+   
+### Running the Model Training
+
+To train the model, run the following command:
+
+```bash
+python main.py --data_directory <path_to_data> --learning_rate 0.001 --arch vgg13 --hidden_units 512 --epochs 10 --save_dir <path_to_save_directory> --gpu
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
 
